@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?imprt java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml" fx:controller="fxmlexample.FXMLExampleController">
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+    <gridLinesVisible>true</gridLinesVisible>
+    <Text text="Welcome" GridPane.columnIndex="0" GridPane.rowIndex="0" 
+    GridPane.columnSpan="2"/>
+    
+    <Label text="User name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    
+    <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    
+</GridPane>
